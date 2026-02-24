@@ -55,8 +55,8 @@ Users can:
 ###  Running Application on EC2
 ![Application](screenshots/app.png)
 
-###  Running Docker Containers
-![Docker Containers](screenshots/docker-ps.png)
+### GitHub Actions Workflow
+![Workflow](screenshots/github-Workflows.png)
 ## Docker Setup
 
 ### Build and Run Using Docker Compose
