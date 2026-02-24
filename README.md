@@ -42,7 +42,21 @@ Users can:
 - AWS EC2
 
 ---
+---
 
+## 📸 Screenshots
+
+### GitHub Actions Pipeline Success
+![GitHub Actions](screenshots/github-actions.png)
+
+###  Docker Hub Images
+![Docker Hub](screenshots/dockerhub.png)
+
+###  Running Application on EC2
+![Application](screenshots/app.png)
+
+###  Running Docker Containers
+![Docker Containers](screenshots/docker-ps.png)
 ## Docker Setup
 
 ### Build and Run Using Docker Compose
