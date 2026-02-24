@@ -16,13 +16,13 @@ jobs:
       - name: Login to Docker Hub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.mahadevagowda2023 }}
-          password: ${{ secrets.madhu@2023 }}
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build and Push Backend
         run: |
           docker build -t mahadevagowda2023/mean-backend ./backend
-          docker push mahadevagagowda2023/mean-backend
+          docker push mahadevagowda2023/mean-backend
 
       - name: Build and Push Frontend
         run: |
